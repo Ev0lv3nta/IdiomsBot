@@ -1,0 +1,49 @@
+# Python
+*.py[cod]
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite database file
+*.db
+*.sqlite
+*.sqlite3
+
+# Custom files to ignore
+tokens.py # Очень важно! Игнорируем файл с реальными токенами
+*.log # Если у вас создаются локальные файлы логов помимо вывода в консоль
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? # Vim swap files
