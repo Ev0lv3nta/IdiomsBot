@@ -1,0 +1,3 @@
+# tokens.py Пример
+GEMINI_API_KEY = "Здесь должен быть токен gemini api"
+TELEGRAM_TOKEN = "Здесь должен быть токен telegram из @BotFather"
